@@ -9,8 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const PORT = 8080;
-//milab - AIzaSyA6K2JBuOcoZJRG3jKAimRxaWdDqoMXIGk
-//afik - AIzaSyA55Fgqx8yShAamvF7B3llMO3ZrIKBZyAs
+
 //google route key 
 const googleMapsClient = require('@google/maps').createClient({
   key: "AIzaSyA6K2JBuOcoZJRG3jKAimRxaWdDqoMXIGk"
